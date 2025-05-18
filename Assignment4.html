@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment</title>
+</head>
+<body>
+    <h1>JavaScript Assignment</h1>
+    
+    <!-- Pop-up Boxes -->
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="confirmDelete()">Confirm Delete</button>
+    <button onclick="askUserInput()">Ask Name</button>
+    <p id="userName"></p>
+    
+    <!-- Event Handling & DOM Manipulation -->
+    <p id="text">Original Text</p>
+    <button onclick="changeText()">Change Text</button>
+    
+    <input type="text" id="newItem" placeholder="Enter item">
+    <button onclick="addListItem()">Add Item</button>
+    <ul id="list"></ul>
+    
+    <!-- Form Validation -->
+    <form onsubmit="return validateForm()">
+        <input type="email" id="email" placeholder="Enter Email" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <!-- Date & Weather -->
+    <button onclick="displayDateTime()">Show Date & Time</button>
+    <p id="datetime"></p>
+    
+    <button onclick="fetchWeather()">Fetch Weather</button>
+    <p id="weather"></p>
+    
+    <!-- To-Do List -->
+    <input type="text" id="task" placeholder="New Task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="todoList"></ul>
+    
+    <!-- Simple Chatbot -->
+    <input type="text" id="userInput" placeholder="Say something">
+    <button onclick="chatBot()">Chat</button>
+    <p id="chatbotResponse"></p>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
